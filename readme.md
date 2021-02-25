@@ -10,12 +10,14 @@ In this project manager can manage his employees,
 
 1) install requirement.txt
     pip install -r requirements.txt
-2) For initial setup create a Manager user
-    Example:
-        python manage.py create_manager_user -u "kaiser" -p "test" -f "syed" -l "kaiser" -a "Banglore" -d "1996-01-01" -c "new"
-3) run migrations
+
+2) run migrations
     python manage.py makemigrations
     python manage.py migrate
+
+3)  For initial setup create a Manager user
+    Example:
+        python manage.py create_manager_user -u "kaiser" -p "test" -f "syed" -l "kaiser" -a "Banglore" -d "1996-01-01" -c "new"
 
 4) Run project
     python manage.py runserver
